@@ -42,6 +42,7 @@ $ kubectl delete service <service name>
   
 (minikube v0.27.0 目前比0.30.0穩定)
 $ minikube status
+  
 $ minikube stop
 $ minikube delete
 $ minikube service <pod/service name> --url
