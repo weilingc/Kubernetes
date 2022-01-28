@@ -4,9 +4,7 @@
 # key words
 minikube
 
-
 driver
-
 
 hyper-v, 虛擬交換器
 
@@ -16,6 +14,7 @@ C:\Users\username\.minikube
 
 # ---------- 環境設定 ----------
 使用hyper-v
+
 <img width="480" alt="2022-01-28_15h15_20" src="https://user-images.githubusercontent.com/66947341/151503677-9c6747f6-811d-4f93-b5cb-b46fed1ddc68.png">
 <img width="732" alt="2022-01-28_15h17_00" src="https://user-images.githubusercontent.com/66947341/151503867-35ecb351-2a49-42a5-a9e0-214494379b83.png">
 
