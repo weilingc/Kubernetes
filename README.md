@@ -8,6 +8,12 @@ driver
 
 hyper-v, 虛擬交換器
 
+Pod的概念---一組容器的集合, 而非單獨的容易。 他是短暫而非長久應用。 Pods被調度到節點 kepp在此節點上直到被銷毀
+
+<img width="760" alt="2022-01-28_16h26_18" src="https://user-images.githubusercontent.com/66947341/151512646-5f644b5d-02de-409c-a5c4-fb3ef8074484.png">
+
+在文件中可以得到一些資訊: 開啟port80給http traffic(http流量), 當容器啟動時, 向他傳送一些arguments參數, 這個pod由一個container容器組成(the monolith)
+
 # key path
 C:\Users\username\.minikube
 
