@@ -21,24 +21,20 @@ C:\Users\username\.minikube
 # ---------- 語法 ----------
 $ kubectl create deployment <server name> --image=<image name>
   
-  
 $ kubectl expose deployment <server name> --type=<e.g. LoadBalancer, NodePort> --port <port號e.g.8080>
-
   
 $ kubectl get port
-
   
 $ kubectl kill
-
   
 $ kubectl delete pod <pod_name> -n <namespace> --grace-period 0 --force
-
   
 $ kubectl get service
-
   
 $ kubectl delete service <service name>
   
+ 
+
 (minikube v0.27.0 目前比0.30.0穩定)
   
 $ minikube status
