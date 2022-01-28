@@ -29,6 +29,8 @@ $ kubectl create deployment <server name> --image=<image name>
   
 $ kubectl expose deployment <server name> --type=<e.g. LoadBalancer, NodePort> --port <port號e.g.8080>
   
+notes: 提供三種服務 >> ClusterIP(此服務只在cluster內部可見), NodePort(為每個cluster中的node提供一個外部IP), LoadBalancer(加入來自cloud provider的load balancer, 將traffic從service~ forwards到其中的nodes.)
+  
 $ kubectl get port
   
 $ kubectl kill
@@ -56,3 +58,17 @@ $ minikube start --vm-driver hyperv --hyperv-virtual-switch <虛擬交換器名>
 $ minikube ssh "sudo poweroff"
   
 ps $ Stop-VM -Name minikube -Force
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+--- extra ---
+  
+endpoints & webhook觀念
+
